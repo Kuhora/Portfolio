@@ -11,6 +11,7 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    preserveSymlinks: true,
   },
   build: {
     outDir: "dist",
@@ -25,5 +26,8 @@ export default defineConfig({
   server: {
     port: 3000,
     strictPort: true
+  },
+    optimizeDeps: {
+    force: true
   }
 });
