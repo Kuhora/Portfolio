@@ -11,20 +11,20 @@ const projects = [
   },
   {
     id: 2,
-    title: "Noir Finance",
+    title: "Ecommerce",
     description:
-      "Interactive Corporate Dashboard with data visualization and other tools",
+      "A complete e-commerce platform with a secure backend, token-based authentication, an exclusive admin dashboard for product management, and integrated payment processing.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "Node.js", "React"],
+    tags: ["Jsx", "React", "MongoDB", "JWT", "Express"],
     githubUrl: "https://github.com/Kuhora",
   },
   {
     id: 3,
-    title: "Loading...",
+    title: "Noir Finance",
     description:
-      "",
+      "Interactive Corporate Dashboard with data visualization and other tools",
     image: "/projects/project3.png",
-    tags: [],
+    tags: ["TypeScript", "Node.js", "React"],
     githubUrl: "https://github.com/Kuhora",
   },
 ];
