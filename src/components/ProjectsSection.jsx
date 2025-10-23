@@ -3,10 +3,10 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Fantastic Animals",
-    description: "A beautiful and clean page app using JS.",
+    title: "TaskFlow",
+    description: "Collaborative Task Management System",
     image: "/projects/project1.png",
-    tags: ["JavaScript", "Html/Css"],
+    tags: ["TypeScript", "React", "Dockerfile", "JWT", "..."],
     githubUrl: "https://github.com/Kuhora",
   },
   {
